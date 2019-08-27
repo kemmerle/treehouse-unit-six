@@ -2,7 +2,7 @@
   "name": "node-and-express-site",
   "version": "1.0.0",
   "description": "Installation requirements for Project 6 of the Treehouse TalentPath Program",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "test"
   },
