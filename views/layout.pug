@@ -8,7 +8,8 @@ html(class="no-js" lang="en" dir="ltr")
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
-    //My change
+    //My change--I've linked to an external Google style sheet to import my
+    //chosen font.
     link(href='https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap', rel='stylesheet')
   body
     #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
@@ -26,6 +27,8 @@ html(class="no-js" lang="en" dir="ltr")
               |extensive experience in teaching. I'm currently honing my skills
               |in the Boston TalentPath program at Hubspot after completing
               |an intensive training program in software development at Launch Academy.
+              //Pipes in pug allow for line breaks in larger blocks of text, especially
+              //useful for something like a small bio.
 
             a(href='/about') Learn More →
 

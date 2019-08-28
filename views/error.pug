@@ -1,10 +1,14 @@
 extends layout.pug
 
 block content
-  section.desk
+  section.error
     h1= `${error.message} - Status: ${error.status}`
 
-    a.button-primary-small(href='/') Go Home
-    .paper
+    .error-stack
       pre.stack-trace= error.stack
-    .tear
+      //I made a few changes to the CSS styling of the error stack to ensure
+      //its readability.
+
+    br
+
+    a.button(href='/') Go Home

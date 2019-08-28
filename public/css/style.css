@@ -59,6 +59,20 @@ a:hover{
   color: #111;
 }
 
+/* My change */
+.error {
+  padding-left: 20px;
+}
+
+/* My change adapted from the Express Basics course project files */
+.error-stack {
+  text-align: left;
+  color: #34393D;
+  background-size: 100% 2.5em;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
 .image{
   display: inline-block;
   max-width: 100%;
@@ -69,6 +83,7 @@ a:hover{
   box-shadow: 5px 10px grey;
   line-height: 0;
 }
+
 
 .portfolio-me{
   padding: 20px;
@@ -160,7 +175,7 @@ a:hover{
 }
 
 .portfolio-bio{
-    /* My change */ 
+    /* My change */
     font-family: 'Libre Baskerville', serif;
     line-height: 25px;
 }

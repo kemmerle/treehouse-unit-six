@@ -12,7 +12,7 @@ Getting Started/Installation:
 Once you've downloaded the repo, navigate to its root directory in the terminal. Then enter the 'npm install' command to install all dependencies. You can enter either 'node app.js' or 'npm start' to start the servers. Open your browser and navigate to: http://localhost:3000/.  
 
 Personalizations in CSS (Exceeds Expectations requirement):
-To personalize my portfolio site, I have changed the background color of the website to light blue, changed the main font-family to Libre Baskerville (a Google Font), added text shadows to the h5 and h6 tags, and added a box shadow to images and buttons. Each of these changes is marked with 'My change' in the css/style.css file. 
+To personalize my portfolio site, I have changed the background color of the website to light blue, changed the main font-family to Libre Baskerville (a Google Font), added text shadows to the h5 and h6 tags, and added a box shadow to images and buttons. I have also added two classes (.error and .error-stack) to my error.pug template to format it and make it more readable for a client. Each of these changes is marked with 'My change' in the css/style.css file. 
 
 Authors/Contributors:
 -Allison Kemmerle

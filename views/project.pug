@@ -11,11 +11,17 @@ block content
 
         p.lead.text-light
           | #{project.description}
+          //I adapted the text for the project description from the Team Treehouse
+          //website. I would note this in the data.json file, but JSON is simply
+          //to store data. 
 
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
 
         ul
+        //Here I use the pug 'each' method to iterate over the array 'technologies',
+        //one of the keys in the project JSON object I passed down in my routes
+        //folder. I specified that each technology be displayed in an li element.
         each technology in project.technologies
           li #{technology}
         br
@@ -26,5 +32,9 @@ block content
 
         br
 
+    //Here I use the pug 'each' method to iterate over the array 'image_urls',
+    //one of the keys in the project JSON object I passed down in my routes
+    //folder. I specified that each image url be designated as the source
+    //for a new image to be displayed.
     each imageUrl in project.image_urls
       img.image(src='' + imageUrl)
