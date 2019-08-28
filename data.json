@@ -7,7 +7,8 @@
          "live_link": "https://kemmerle.github.io/treehouse-unit-one/",
          "github_link": "https://github.com/kemmerle/treehouse-unit-one",
          "project_thumbnail": "/static/images/project-one-thumbnail.png",
-         "image_urls": [""]
+         "image_urls": ["/static/images/project-1-1.png",
+           "/static/images/project-1-2.png"]
         },
         {"id": 1,
          "project_name": "List Pagination and Filtering",
@@ -16,7 +17,8 @@
          "live_link": "https://kemmerle.github.io/treehouse-unit-two/",
          "github_link": "https://github.com/kemmerle/treehouse-unit-two",
          "project_thumbnail": "/static/images/project-two-thumbnail.png",
-         "image_urls": [""]
+         "image_urls": ["/static/images/project-2-1.png",
+           "/static/images/project-2-2.png"]
         },
         {"id": 2,
          "project_name": "Interactive Form",
@@ -25,7 +27,9 @@
          "live_link": "https://kemmerle.github.io/treehouse-unit-three/",
          "github_link": "https://github.com/kemmerle/treehouse-unit-three",
          "project_thumbnail": "/static/images/project-three-thumbnail.png",
-         "image_urls": [""]
+         "image_urls": ["/static/images/project-3-1.png",
+           "/static/images/project-3-2.png", "/static/images/project-3-3.png",
+           "/static/images/project-3-4.png"]
         },
         {"id": 3,
          "project_name": "OOP Game Show App",
@@ -34,7 +38,9 @@
          "live_link": "https://kemmerle.github.io/treehouse-unit-four/",
          "github_link": "https://github.com/kemmerle/treehouse-unit-four",
          "project_thumbnail": "/static/images/project-four-thumbnail.png",
-         "image_urls": [""]
+         "image_urls": ["/static/images/project-4-1.png",
+           "/static/images/project-4-2.png", "/static/images/project-4-3.png",
+           "/static/images/project-4-4.png"]
         },
         {"id": 4,
          "project_name": "Public API Requests",
@@ -43,7 +49,8 @@
          "live_link": "https://kemmerle.github.io/treehouse-unit-five/",
          "github_link": "https://github.com/kemmerle/treehouse-unit-five",
          "project_thumbnail": "/static/images/project-five-thumbnail.png",
-         "image_urls": [""]
+         "image_urls": ["/static/images/project-5-1.png",
+           "/static/images/project-5-2.png"]
         }
     ]
 }

@@ -1,10 +1,15 @@
+body {
+  background-color: lightblue;
+}
+
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 1px 1px grey;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -12,6 +17,7 @@ h1,h2,h3,h4,h5,p{
 
   h6{
     letter-spacing: 2.5px;
+    text-shadow: 1px 1px grey;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
     font-weight: 600;
@@ -32,6 +38,7 @@ h1,h2,h3,h4,h5,p{
 
 .button{
   background-color: #333;
+  box-shadow: 2px 4px grey;
 }
 
 .button:hover{
@@ -52,7 +59,7 @@ a:hover{
   margin-bottom: 1rem;
   border: solid 4px #fefefe;
   border-radius: 0;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  box-shadow: 5px 10px grey;
   line-height: 0;
 }
 
@@ -69,7 +76,7 @@ a:hover{
   }
 
   .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Libre Baskerville', serif;
     font-weight: 600;
     color: #555;
     font-size: 13px;
@@ -89,7 +96,7 @@ a:hover{
 }
 
  .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: 'Libre Baskerville', serif;
    font-weight: 600;
    font-size: 13px;
    letter-spacing: 2.5px;
@@ -146,5 +153,6 @@ a:hover{
 }
 
 .portfolio-bio{
+    font-family: 'Libre Baskerville', serif;
     line-height: 25px;
 }

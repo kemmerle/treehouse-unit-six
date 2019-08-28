@@ -4,7 +4,8 @@
   "description": "Installation requirements for Project 6 of the Treehouse TalentPath Program",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node node_modules/nodemon/bin/nodemon.js --inspect app.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/kemmerle/treehouse-unit-six#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "nodemon": "^1.19.1",
     "pug": "^2.0.4"
   }
 }
