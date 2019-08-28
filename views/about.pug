@@ -1,47 +1,54 @@
 extends layout.pug
 
-block content 
+block content
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        //- Add your name.
-        h1 Name
+        h1 Allison Kemmerle
 
-        //- Feel free personalize the title below
+        //Pipes in pug allow for line breaks in larger blocks of text, especially
+        //useful for something like a small bio.
         p.lead.text-light
-          | Full Stack JavaScript Developer.
+          | Full Stack Web Developer.
 
-        //- Replace the boilerplate below with your Elevator pitch below.
         .portfolio-bio
           p
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position. 
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-      .cell.portfolio-meta.small-6.medium-2.large-3
-        h6 Skills
+          | During my graduate studies at the University of Michigan, I became
+          |interested in programming while an intern at a digital humanities
+          |consortium, where I helped to create and maintain
+          |databases for historical documents. After I completed my PhD, I
+          |decided to make a career switch and become a software engineer,
+          |because I enjoyed the reasoning and creative process behind
+          |creating a web application and the satisfaction in delivering a
+          |finished product to a client.
 
-        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Languages
+
+        ul
+          li JavaScript
+          li Ruby
+          li HTML
+          li CSS
+          li SQL
+
+        h6 Technologies
+
         ul
           li Express
-          li Other cool stuff
-          li Listing my skills
-          li Etc.
-          li Etc. 
-          li Etc.
+          li React.js
+          li React Redux
+          li Ruby on Rails
+
         h6 Contact Info
 
-        //- Add your own contact info
         ul
-          li 555-555-1234
-          li email@email.com
+          li allison.kemmerle@gmail.com
 
-        //- Add URLs to the hrefs below to link to your social media accounts.
-        a.button.expanded(href='') LinkedIn
-        a.button.expanded(href='') GitHub
-        a.button.expanded(href='') Twitter
+        a.button.expanded(href='https://www.linkedin.com/in/allison-kemmerle/') LinkedIn
+        a.button.expanded(href='https://github.com/kemmerle') GitHub
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
-  

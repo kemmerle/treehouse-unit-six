@@ -1,0 +1,29 @@
+{
+  "name": "node-and-express-site",
+  "version": "1.0.0",
+  "description": "Installation requirements for Project 6 of the Treehouse TalentPath Program",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "npx nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kemmerle/treehouse-unit-six.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express"
+  ],
+  "author": "Allison Kemmerle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kemmerle/treehouse-unit-six/issues"
+  },
+  "homepage": "https://github.com/kemmerle/treehouse-unit-six#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "pug": "^2.0.4"
+  }
+}

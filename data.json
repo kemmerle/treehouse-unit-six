@@ -1,0 +1,56 @@
+{"projects":
+    [
+        {"id": 0,
+         "project_name": "A Random Quote Generator",
+         "description": "I practiced my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button",
+         "technologies": ["JavaScript", "HTML", "CSS"],
+         "live_link": "https://kemmerle.github.io/treehouse-unit-one/",
+         "github_link": "https://github.com/kemmerle/treehouse-unit-one",
+         "project_thumbnail": "/static/images/project-one-thumbnail.png",
+         "image_urls": ["/static/images/project-1-1.png",
+           "/static/images/project-1-2.png"]
+        },
+        {"id": 1,
+         "project_name": "List Pagination and Filtering",
+         "description": "Displaying a long list of items on a web page, like a list of 200 movie titles or 400 products, can overwhelm a user with too much information at once. A common solution is to display a handful of items on one page and provide navigation to jump to a list of more items. In this project, I wrote JavaScript to divide a long list into a series of pages and improve the user experience of a web page.",
+         "technologies": ["JavaScript", "HTML", "CSS"],
+         "live_link": "https://kemmerle.github.io/treehouse-unit-two/",
+         "github_link": "https://github.com/kemmerle/treehouse-unit-two",
+         "project_thumbnail": "/static/images/project-two-thumbnail.png",
+         "image_urls": ["/static/images/project-2-1.png",
+           "/static/images/project-2-2.png"]
+        },
+        {"id": 2,
+         "project_name": "Interactive Form",
+         "description": "Full Stack JavaScript developers create forms to collect information from users for nearly every website and application they build. For this project, I used my skills in jQuery and JavaScript to enhance a form so that it’s engaging, interactive, and easy to use.",
+         "technologies": ["JavaScript", "jQuery", "HTML", "CSS"],
+         "live_link": "https://kemmerle.github.io/treehouse-unit-three/",
+         "github_link": "https://github.com/kemmerle/treehouse-unit-three",
+         "project_thumbnail": "/static/images/project-three-thumbnail.png",
+         "image_urls": ["/static/images/project-3-1.png",
+           "/static/images/project-3-2.png", "/static/images/project-3-3.png",
+           "/static/images/project-3-4.png"]
+        },
+        {"id": 3,
+         "project_name": "OOP Game Show App",
+         "description": "In this project, I have created a browser-based, word guessing game: Phrase Hunter. I've used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard. Can they guess the phrase before they run out of attempts?",
+         "technologies": ["JavaScript", "jQuery", "HTML", "CSS"],
+         "live_link": "https://kemmerle.github.io/treehouse-unit-four/",
+         "github_link": "https://github.com/kemmerle/treehouse-unit-four",
+         "project_thumbnail": "/static/images/project-four-thumbnail.png",
+         "image_urls": ["/static/images/project-4-1.png",
+           "/static/images/project-4-2.png", "/static/images/project-4-3.png",
+           "/static/images/project-4-4.png"]
+        },
+        {"id": 4,
+         "project_name": "Public API Requests",
+         "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript and jQuery, I've created an employee directory by communicating with a third-party API (Application Programming Interface).",
+         "technologies": ["JavaScript", "jQuery", "JSON", "XML", "API", "HTML", "CSS"],
+         "live_link": "https://kemmerle.github.io/treehouse-unit-five/",
+         "github_link": "https://github.com/kemmerle/treehouse-unit-five",
+         "project_thumbnail": "/static/images/project-five-thumbnail.png",
+         "image_urls": ["/static/images/project-5-1.png",
+           "/static/images/project-5-2.png"]
+        }
+    ]
+}
