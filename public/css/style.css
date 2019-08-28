@@ -1,14 +1,18 @@
 body {
+  /* My change */
   background-color: lightblue;
 }
 
 
 h1,h2,h3,h4,h5,p{
+  /* My change */
   font-family: 'Libre Baskerville', serif;
 }
 
   h5{
+    /* My change */
     font-family: 'Libre Baskerville', serif;
+    /* My change */
     text-shadow: 1px 1px grey;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -17,6 +21,7 @@ h1,h2,h3,h4,h5,p{
 
   h6{
     letter-spacing: 2.5px;
+    /* My change */
     text-shadow: 1px 1px grey;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -38,6 +43,7 @@ h1,h2,h3,h4,h5,p{
 
 .button{
   background-color: #333;
+  /* My change */
   box-shadow: 2px 4px grey;
 }
 
@@ -59,6 +65,7 @@ a:hover{
   margin-bottom: 1rem;
   border: solid 4px #fefefe;
   border-radius: 0;
+  /* My change */
   box-shadow: 5px 10px grey;
   line-height: 0;
 }
@@ -153,6 +160,7 @@ a:hover{
 }
 
 .portfolio-bio{
+    /* My change */ 
     font-family: 'Libre Baskerville', serif;
     line-height: 25px;
 }
